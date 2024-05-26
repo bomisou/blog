@@ -1,0 +1,10 @@
+build:
+  command: "hugo"
+  publish: "public"
+  environment:
+    HUGO_VERSION: "0.82.0"
+
+context:
+  production:
+    environment:
+      GIT_SUBMODULE_STRATEGY: "recursive"
