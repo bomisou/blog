@@ -68,18 +68,17 @@ params:
   label:
     text: "bomisou"
     icon: /images/logo.svg
-    image: /images/logo.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Unlock Your Balance with BOMISOU
+    title: Body, Mind & Soul
     subtitle: "Discover holistic well-being through mindful movement and a deep connection with nature. Join our community-driven journey to a balanced, healthier you."
     imageUrl: "/images/logo.svg"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: bomisou logo
     buttons:
       - name: Posts
         url: posts
