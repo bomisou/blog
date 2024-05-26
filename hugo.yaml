@@ -42,6 +42,5 @@ sitemap:
   changefreq: "weekly"
   priority: 0.5
 
-  services:
-  googleAnalytics:
-    ID: G-4C5XHGD6NV
+services:
+  googleAnalytics: G-4C5XHGD6NV
