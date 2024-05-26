@@ -41,3 +41,7 @@ privacy:
 sitemap:
   changefreq: "weekly"
   priority: 0.5
+
+services:
+  googleAnalytics:
+    ID: G-4C5XHGD6NV
