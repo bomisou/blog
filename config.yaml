@@ -37,3 +37,7 @@ privacy:
     disable: false
     respectDoNotTrack: true
     useSessionStorage: false
+
+sitemap:
+  changefreq: "weekly"
+  priority: 0.5
