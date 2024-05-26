@@ -2,6 +2,8 @@ baseURL: "https://bomisou.com/"
 languageCode: "en-us"
 title: "BOMISOU"
 theme: "PaperMod"
+languageCode: "en-us"
+defaultContentLanguage: "en"
 
 params:
   author: "Your Name"
