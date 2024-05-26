@@ -26,8 +26,9 @@ params:
   ShareButtons: ["linkedin", "twitter", "facebook", "whatsapp"]
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  defaultTheme: "auto"
+  defaultTheme: "light"
   disableThemeToggle: true
+  hideFooter: true
 
   seo:
     title: "BOMISOU - Find Your Balance"
@@ -53,6 +54,7 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -65,16 +67,16 @@ params:
 
   label:
     text: "bomisou"
-    # icon: /image/apple-touch-icon.png
-    image: /apple-touch-icon.png
+    icon: /images/logo.svg
+    image: /images/logo.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    title: Unlock Your Balance with BOMISOU
+    subtitle: "Discover holistic well-being through mindful movement and a deep connection with nature. Join our community-driven journey to a balanced, healthier you."
+    imageUrl: "/images/logo.svg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -134,10 +136,10 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
