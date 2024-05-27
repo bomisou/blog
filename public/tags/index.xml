@@ -15,26 +15,5 @@
       <guid>http://localhost:1313/tags/body/</guid>
       <description></description>
     </item>
-    <item>
-      <title>BOMISOU</title>
-      <link>http://localhost:1313/tags/bomisou/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bomisou/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>First</title>
-      <link>http://localhost:1313/tags/first/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/first/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Introduction</title>
-      <link>http://localhost:1313/tags/introduction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/introduction/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
