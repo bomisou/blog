@@ -73,18 +73,23 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Body, Mind & Soul
+    title: A Journey to a Balanced Life
     subtitle: "Discover holistic well-being through mindful movement and a deep connection with nature. Join our community-driven journey to a balanced, healthier you."
     imageUrl: "/images/logo.svg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: bomisou logo
     buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-
+      # - name: Posts
+      #   url: posts
+      # - name: Tags
+      #   url: tags
+      - name: BODY
+        url: body
+      - name: MIND
+        url: Mind       
+      - name: SOUL
+        url: Soul  
   # home-info mode
   homeInfoParams:
     Title: "Unlock Your Balance with BOMISOU"
@@ -127,18 +132,30 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 10
+    # - identifier: tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 20 
+    - identifier: body
+      name: BODY
+      url: /body/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: mind
+      name: MIND
+      url: /mind/
       weight: 20
+    - identifier: soul
+      name: SOUL
+      url: /soul/
+      weight: 30      
     - identifier: join us
       name: JOIN US
       url: https://mailchi.mp/31c077ff7052/sign-up-to-bomisou
-      weight: 30
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
