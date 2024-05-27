@@ -91,14 +91,14 @@ params:
     Content: Discover holistic well-being through mindful movement and a deep connection with nature. Join our community to start your journey towards a balanced, healthier life.
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
+    # - name: x
+    #   url: "https://x.com/"
     - name: instagram
       url: "https://www.instagram.com/bomisou/"
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "GTM-WFZKLPWK"
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
